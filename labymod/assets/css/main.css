@@ -73,6 +73,10 @@
   padding-left: 1vh;
   padding-right: 1vh;
 }
+
+#navigation #github {
+  background-color: #007BA7;
+}
 /*----------------------------------------------------------------------------*/
 .capes {
   background-color: #272727;
