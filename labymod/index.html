@@ -30,7 +30,7 @@
 <div id="navigation">
   <ul>
     <li><a href="http://cerulean.tk/" target="_blank">Home</a></li>
-    <li><a href="https://twitter.com/ceruleansteveh" target="_blank">Twitter</a></li>
+    <li><a href="https://twitter.com/steveh259" target="_blank">Twitter</a></li>
     <li><a href="#">Labymod</a></li>
   </ul>
 </div>
@@ -46,13 +46,31 @@
   <p>Below is a collection of user-created LabyMod capes from the Discord community. Find your favorite cape by using the search bar and download them by clicking.<br>
   <b>Note:</b> Every cape has been individually created or handed in by a member of the LabyMod Discord server. None of these belong to the website owner.<br>
   <b>Hand in custom created capes by simply sending them into the <span>#capes</span> channel on the Discord server</b></p>
-  <button>Discord</button><button>Issues?</button>
+  <button onclick="window.location = 'http://discord.gg/labymod';">Discord</button><br><br>
 
-
-
+    <div class="ui-widget">
+      <input id="search">
+    </div>
 </div>
 
-
-
+<!-- S C R I P T S -->
+  <!-- JQUERYUI-AUTOCOMPLETE -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      var availableTags = [
+        "cerulean",
+        "sample"
+      ];
+      $( "#search" ).autocomplete({
+        source: availableTags
+      });
+    } );
+  </script>
+  <!-- /JQUERYUI-AUTOCOMPLETE -->
+<!-- /S C R I P T S -->
 </body>
 </html>
