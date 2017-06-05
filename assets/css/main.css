@@ -54,6 +54,16 @@
   color: white;
 }
 
+.tfn #github {
+  background-color: #007BA7;
+  color: white;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+}
+
+
 #navigation {
   right: 2vh;
   position: absolute;
@@ -72,8 +82,4 @@
   display: inline-block;
   padding-left: 1vh;
   padding-right: 1vh;
-}
-
-#navigation #github {
-  background-color: #007BA7;
 }
