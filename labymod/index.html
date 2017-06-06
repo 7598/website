@@ -39,6 +39,7 @@
 <div class="tfn">
     <h1>二五九</h1>
     <p>two five <span>nine</span></p>
+    <a href="https://github.com/steveh259/website" target="_blank" id="github">GitHub</a>
 </div>
 
 <div class="capes">
@@ -49,9 +50,10 @@
   <b>Hand in custom created capes by simply sending them into the <span>#capes</span> channel on the Discord server</b></p>
   <button onclick="window.location = 'http://discord.gg/labymod';">Discord</button><br><br>
 
-    <div class="ui-widget">
-      <input id="search">
-    </div>
+  <div class="ui-widget">
+    <input id="tagsearch">
+  </div>
+
 </div>
 
 <!-- S C R I P T S -->
@@ -66,11 +68,11 @@
         "cerulean",
         "sample"
       ];
-      $( "#search" ).autocomplete({
+      $( "#tagsearch" ).autocomplete({
         source: availableTags
       });
     } );
-  </script>
+    </script>
   <!-- /JQUERYUI-AUTOCOMPLETE -->
 <!-- /S C R I P T S -->
 </body>

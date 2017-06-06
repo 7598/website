@@ -39,10 +39,12 @@
 .tfn a {
   color: #007BA7;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .tfn a:hover {
   opacity: 0.7;
+  transition: 0.2s;
 }
 
 .tfn h1 {
@@ -72,10 +74,12 @@
 #navigation a {
   color: white;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 #navigation a:hover {
   color: #007BA7;
+  transition: 0.2s;
 }
 
 #navigation li {

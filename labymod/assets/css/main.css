@@ -39,10 +39,12 @@
 .tfn a {
   color: #007BA7;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .tfn a:hover {
   opacity: 0.7;
+  transition: 0.2s;
 }
 
 .tfn h1 {
@@ -53,6 +55,15 @@
 .tfn span {
   color: white;
 }
+
+.tfn #github {
+  background-color: #007BA7;
+  color: white;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+}
 /*----------------------------------------------------------------------------*/
 #navigation {
   right: 2vh;
@@ -62,20 +73,18 @@
 #navigation a {
   color: white;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 #navigation a:hover {
   color: #007BA7;
+  transition: 0.2s;
 }
 
 #navigation li {
   display: inline-block;
   padding-left: 1vh;
   padding-right: 1vh;
-}
-
-#navigation #github {
-  background-color: #007BA7;
 }
 /*----------------------------------------------------------------------------*/
 .capes {
@@ -113,10 +122,12 @@
   height: 5vh;
   width: 10vh;
   border-radius: 100px;
+  transition: 0.2s;
 }
 
 .capes button:hover {
   opacity: 0.7;
+  transition: 0.2s;
 }
 
 .capes input {
@@ -124,14 +135,17 @@
   height: 3vh;
   background-color: #007BA7;
   border: 0px;
+  transition: 0.2s;
 }
 
 .capes input:focus {
   width: 30vh;
+  transition: 0.2s;
 }
 
 .capes input:hover {
   opacity: 0.7;
+  transition: 0.2s;
 }
 
 .capes #search {
