@@ -151,3 +151,33 @@
 .capes #search {
   font-size: 2vh;
 }
+
+.cape {
+  display: inline-block;
+  position: relative;
+  transition: 0.2s:
+}
+
+.cape img {
+  height: 355px;
+  width: 275px;
+}
+
+.cape img:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.cape a {
+  position: absolute;
+  right: 45%;
+  top: 43%;
+  transition: 0.2s;
+  font-size: 4vh;
+  color: white;
+}
+
+.cape a:hover {
+  transition: 0.2s;
+  color: #007BA7
+}
